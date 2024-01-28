@@ -1,0 +1,8 @@
+body{
+    direction: rtl;
+}
+
+em{
+    color: red;
+    font-size: 1em;
+}
