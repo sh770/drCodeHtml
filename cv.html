@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טופס קורות חיים</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="about.html">אודות</a>
+            <a href="index.html">קורות החיים שלי</a>
+        </nav>
+    </header>
+    <main>
+        <h1>טופס קורות חיים</h1>
+        <h2>כאן ניתן למלא קורות חיים</h2>
+        <form>
+            <fieldset>
+                <legend> מלא את פרטי קורות החיים שלך</legend>
+                <p>
+                    <label for="name">שם פרטי:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="surname">שם משפחה:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </p>
+                <p>
+                    <label for="age">גיל:</label>
+                    <input type="number" id="age" name="age" min="18" max="70" required>
+                </p>
+
+                <p>
+                    <label for="profession">בחר מקצוע:</label>
+                    <select id="profession" name="profession" required>
+                        <option value="programmer"> מתכנת:</option>
+                        <option value="designer"> מעצב:</option>
+                        <option value="other"> אחר:</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="Years of experience">שנות ניסיון במקצוע:</label>
+                    <input type="number" id="Years of experience" name="Years of experience" min="1" max="10" required>
+                </p>
+
+
+                <p>
+                    <button type="submit">שלח</button>
+                </p>
+
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <h3>צור קשר</h3>
+
+        <address>הכתובת שלי הפרטית</address>
+
+        <p>
+            <a href="mailto:mWJqP@example.com">mWJqP@example.com</a>
+        </p>
+        <p>
+            <a href="tel:0501234567">מספר טלפון: 0501234567</a>
+        </p>
+    </footer>
+</body>
+
+</html>

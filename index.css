@@ -1,6 +1,9 @@
 body{
     direction: rtl;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 em{
     color: red;
